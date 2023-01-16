@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
@@ -116,3 +117,6 @@ Hyde has two branches, but only one is used for active development.
 Open sourced under the [MIT license](LICENSE.md).
 
 <3
+=======
+# vvillaga.github.io
+>>>>>>> db11114f3ad1036b80b0421c06a2f3fd199bf107
