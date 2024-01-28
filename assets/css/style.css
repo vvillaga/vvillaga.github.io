@@ -492,19 +492,19 @@ main {
 
 
 /*-----------------------------------*\
-  #Home
+  #ABOUT
 \*-----------------------------------*/
 
-.Home .article-title { margin-bottom: 15px; }
+.about .article-title { margin-bottom: 15px; }
 
-.Home-text {
+.about-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
-.Home-text p { margin-bottom: 15px; }
+.about-text p { margin-bottom: 15px; }
 
 
 
@@ -1382,12 +1382,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #Home
+   * #ABOUT
    */
 
-  .Home .article-title { margin-bottom: 20px; }
+  .about .article-title { margin-bottom: 20px; }
 
-  .Home-text { margin-bottom: 40px; }
+  .about-text { margin-bottom: 40px; }
 
   /* service */
 
@@ -1581,7 +1581,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * Home
+   * ABOUT
    */
 
   /* testimonials modal */
@@ -1720,7 +1720,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * Home
+   * ABOUT
    */
 
   /* service */
