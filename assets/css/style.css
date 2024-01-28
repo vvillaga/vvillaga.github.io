@@ -56,11 +56,11 @@
 
   /* solid */
 
-  --jet: hsl(0, 12%, 11%);/* edge */
+  --jet: hsl(200,95.7%,9.2%);/* edge */
   --onyx: hsl(199, 95%, 29%); /* inside icons */
-  --eerie-black-1: hsl(54, 68%, 79%);    /* nav icons */
-  --eerie-black-2: hsl(183, 44%, 50%);
-  --smoky-black: hsl(211, 39%, 77%);
+  --eerie-black-1: hsl(200,94.5%,14.3%);    /* nav icons */
+  --eerie-black-2: hsl(191.6,70.1%,43.3%); /* inner background */
+  --smoky-black: hsl(199.09, 64%, 73%); /* background */
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
