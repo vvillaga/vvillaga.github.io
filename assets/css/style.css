@@ -56,11 +56,11 @@
 
   /* solid */
 
-  --jet: hsl(0, 62%, 50%);
-  --onyx: hsl(112, 85%, 56%);
+  --jet: hsl(0, 12%, 11%);/* edge */
+  --onyx: hsl(199, 95%, 29%); /* inside icons */
   --eerie-black-1: hsl(54, 68%, 79%);    /* nav icons */
   --eerie-black-2: hsl(183, 44%, 50%);
-  --smoky-black: hsl(297, 31%, 76%);
+  --smoky-black: hsl(211, 39%, 77%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
