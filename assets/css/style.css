@@ -57,7 +57,7 @@
   /* solid */
 
   --jet: hsl(200,95.7%,9.2%);/* edge */
-  --onyx: hsl(199, 95%, 29%); /* inside icons */
+  --onyx: hsla(199, 95%, 29%, 0.339); /* inside icons */
   --eerie-black-1: hsl(200,94.5%,14.3%);    /* nav icons */
   --eerie-black-2: hsl(202.5,20%,92.2%); /* inner background */
   --smoky-black: hsl(202.1,20.9%,82.2%); /* background */
