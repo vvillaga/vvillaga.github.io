@@ -60,9 +60,9 @@
   --onyx: hsl(199, 95%, 29%); /* inside icons */
   --eerie-black-1: hsl(200,94.5%,14.3%);    /* nav icons */
   --eerie-black-2: hsl(202.5,20%,92.2%); /* inner background */
-  --smoky-black: hsl(199.09, 64%, 73%); /* background */
-  --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 0%, 98%);
+  --smoky-black: hsl(202.1,20.9%,82.2%); /* background */
+  --white-1: hsl(0, 0%, 0%);
+  --white-2: hsl(0, 0%, 0%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 0%);
