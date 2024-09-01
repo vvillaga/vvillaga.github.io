@@ -134,6 +134,26 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+// Add event listener for your specific link
+document.querySelector('a[href="#san-jacinto-section"]').addEventListener('click', function(event) {
+  event.preventDefault();
+
+  // Activate the research page and the corresponding nav link
+  for (let i = 0; i < pages.length; i++) {
+      if (pages[i].dataset.page === 'research') {
+          pages[i].classList.add("active");
+          navigationLinks[i].classList.add("active");
+      } else {
+          pages[i].classList.remove("active");
+          navigationLinks[i].classList.remove("active");
+      }
+  }
+
+  // Delay to ensure the page section is visible, then scroll to the section
+  setTimeout(function() {
+      document.getElementById('san-jacinto-section').scrollIntoView({ behavior: 'smooth' });
+  }, 100); // Adjust the delay as needed
+});
 
 
 // page navigation variables
