@@ -134,61 +134,25 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
-// Function to show the correct page based on the hash or link clicked
-const showPage = function(pageName, targetId = null) {
-  for (let i = 0; i < pages.length; i++) {
-    if (pages[i].dataset.page === pageName) {
-      pages[i].classList.add("active");
-      window.scrollTo(0, 0); // Scroll to top initially
-      if (targetId) {
-        document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
-      }
-    } else {
-      pages[i].classList.remove("active");
-    }
-  }
-};
-
-// Check if there's a hash in the URL on page load
-if (window.location.hash) {
-  const hash = window.location.hash.substring(1);
-  if (hash) {
-    showPage('research', hash); // Assuming 'research' is the page data-page value
-  }
-}
-
-// Add event to all nav link
+// add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
-  navigationLinks[i].addEventListener("click", function (e) {
-    e.preventDefault(); // Prevent default anchor behavior
-    const pageName = this.getAttribute('data-nav-link');
-    const hash = this.getAttribute('href').substring(1);
-    showPage(pageName, hash);
+  navigationLinks[i].addEventListener("click", function () {
+
+    for (let i = 0; i < pages.length; i++) {
+      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
+        pages[i].classList.add("active");
+        navigationLinks[i].classList.add("active");
+        window.scrollTo(0, 0);
+      } else {
+        pages[i].classList.remove("active");
+        navigationLinks[i].classList.remove("active");
+      }
+    }
+
   });
 }
-
-// // page navigation variables
-// const navigationLinks = document.querySelectorAll("[data-nav-link]");
-// const pages = document.querySelectorAll("[data-page]");
-
-// // add event to all nav link
-// for (let i = 0; i < navigationLinks.length; i++) {
-//   navigationLinks[i].addEventListener("click", function () {
-
-//     for (let i = 0; i < pages.length; i++) {
-//       if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-//         pages[i].classList.add("active");
-//         navigationLinks[i].classList.add("active");
-//         window.scrollTo(0, 0);
-//       } else {
-//         pages[i].classList.remove("active");
-//         navigationLinks[i].classList.remove("active");
-//       }
-//     }
-
-//   });
-// }
