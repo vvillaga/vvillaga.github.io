@@ -45,7 +45,7 @@ controls.enablePan = false;
 
 // ---- Load GLB ----
 const loader = new GLTFLoader();
-const MODEL_URL = "./models/scene.glb"; // ✅ matches your screenshot
+const MODEL_URL = "./models/scene.gltf"; // 
 
 let object = null;
 
