@@ -67,7 +67,7 @@ const activatePage = function (pageName) {
 
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
-    const pageName = this.innerHTML.toLowerCase();
+    const pageName = this.dataset.navPage;
     window.location.hash = pageName;
     activatePage(pageName);
     window.scrollTo(0, 0);
